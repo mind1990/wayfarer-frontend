@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import * as routes from '../constants/routes';
 
 class Signup extends Component {
+	
 	constructor() {
 		super()
 		this.state = {
@@ -13,11 +14,10 @@ class Signup extends Component {
 			email: ''
 		}
 		this.onInputChange = this.onInputChange.bind(this);
-		this.onFormSubmit = this.onFormSubmit.bind(this);
 	}
 	onInputChange(event) {
 		this.setState({
-			username: event.target.value,
+			name: event.target.value,
 			password: event.target.value,
 			confirmpassword: event.target.value,
 			email: event.target.value
@@ -25,15 +25,17 @@ class Signup extends Component {
 	}
 	onFormSubmit(event) {
 		event.preventDefault()
-		const {
-			// username,
-			password,
-			// confirmpassword,
-			email
-		} = this.state;
+
+
+		// const {
+		// 	// username,
+		// 	// password,
+		// 	// confirmpassword,
+		// 	// email
+		// } = this.state;
 		
 	}
-	
+
 	render() {
 		return (
 			<div>

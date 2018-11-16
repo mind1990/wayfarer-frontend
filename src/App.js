@@ -28,10 +28,7 @@ class App extends Component {
             exact path={routes.SIGN_IN}
              component={Signin}
           />
-          <Route
-            exact path={routes.LANDING}
-             component={App}
-          />
+          
           <Route
             exact path={routes.PROFILE}
              component={Profile}
