@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import axios from 'axios';
 import * as routes from '../constants/routes';
 
 class Signup extends Component {
@@ -17,7 +17,7 @@ class Signup extends Component {
 	}
 	onInputChange(event) {
 		this.setState({
-			name: event.target.value,
+			username: event.target.value,
 			password: event.target.value,
 			confirmpassword: event.target.value,
 			email: event.target.value
@@ -26,14 +26,15 @@ class Signup extends Component {
 	onFormSubmit(event) {
 		event.preventDefault()
 
-
-		// const {
-		// 	// username,
-		// 	// password,
-		// 	// confirmpassword,
-		// 	// email
-		// } = this.state;
 		
+		// axios.post('http://localhost:4000/api/user/signin')
+		// 	.then(res => {
+		// 		console.log(res)
+		// 		console.log(res.data)
+		// 	})
+
+		
+
 	}
 
 	render() {
@@ -45,14 +46,14 @@ class Signup extends Component {
         	type='text' name='username'
         	placeholder='User name'
           onChange={this.onInputChange}
-          value={this.state.username}
+          value={this.state.value}
           required
         />
         <input
         	type='password' name='password'
         	placeholder='Password'
           onChange={this.onInputChange}
-          value={this.state.password}
+          value={this.state.value}
           minLength='8'
           required
         />
@@ -60,7 +61,7 @@ class Signup extends Component {
         	type='password' name='password'
         	placeholder='Confirm password'
           onChange={this.onInputChange}
-          value={this.state.confirmpassword}
+          value={this.state.value}
           minLength='8'
           required
         />
@@ -68,7 +69,7 @@ class Signup extends Component {
         	type='email' name='email'
         	placeholder='Email address'
           onChange={this.onInputChange}
-          value={this.state.email}
+          value={this.state.value}
           required
         />
         <Link to ={routes.SIGN_IN}>Already have an account? Sign In!</Link>
