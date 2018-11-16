@@ -6,35 +6,44 @@ import * as routes from '../constants/routes';
 class Signup extends Component {
 	
 	constructor() {
-		super()
+		super();
 		this.state = {
-			username: '',
-			password: '',
-			confirmpassword: '',
-			email: ''
+			username: "",
+			password: "",
+			confirmpassword: "",
+			email: "",
 		}
 		this.onInputChange = this.onInputChange.bind(this);
+		this.onFormSubmit = this.onFormSubmit.bind(this);
 	}
-	onInputChange(event) {
+	onInputChange(e) {
 		this.setState({
-			username: event.target.value,
-			password: event.target.value,
-			confirmpassword: event.target.value,
-			email: event.target.value
+			[e.target.name]: e.target.value,
 		})
 	}
-	onFormSubmit(event) {
-		event.preventDefault()
+	onFormSubmit(e) {
+		e.preventDefault();
 
-		
-		// axios.post('http://localhost:4000/api/user/signin')
-		// 	.then(res => {
-		// 		console.log(res)
-		// 		console.log(res.data)
-		// 	})
+		console.log(`username is ${this.state.username}, password is ${this.state.password}, confirmpassword is ${this.state.confirmpassword}, email is ${this.state.email}`);
 
-		
+		if (this.state.password !== this.state.confirmpassword) {
+			console.log('passwords don\'t match');
+			return;
+		}
 
+		axios.post('http://localhost:4000/api/user/signup', {
+	    username: this.state.username,
+	    password: this.state.password,
+	    confirmpassword: this.state.confirmpassword,
+	    email: this.state.email
+
+	  })
+	  .then(function (response) {
+	    console.log(response);
+	  })
+	  .catch(function (error) {
+	    console.log(error);
+	  });
 	}
 
 	render() {
@@ -58,7 +67,7 @@ class Signup extends Component {
           required
         />
         <input
-        	type='password' name='password'
+        	type='password' name='confirmpassword'
         	placeholder='Confirm password'
           onChange={this.onInputChange}
           value={this.state.value}
