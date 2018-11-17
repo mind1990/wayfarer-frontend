@@ -18,7 +18,6 @@ class App extends Component {
 
       <div className="">
         <Header />
-        <h2>Hello world</h2>
         <Switch>
           <Route
             exact path={routes.SIGN_UP}

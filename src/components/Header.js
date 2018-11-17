@@ -16,8 +16,8 @@ class Header extends Component {
 						<Link to ={routes.CITIES} className='nav-link'>Cities</Link>
 						<Link to ={routes.SIGN_IN} className='nav-link'>Sign In</Link>
 						<Link to ={routes.SIGN_UP} className='nav-link'>Sign Up</Link>
-						<Link to ={routes.LOG_OUT} className='nav-link'>Log Out</Link>
 						<Link to ={routes.PROFILE} className='nav-link'>Profile</Link>
+						<Link to ={routes.LOG_OUT} className='nav-link'>Log Out</Link>
 					</div>
 					
 				</nav>

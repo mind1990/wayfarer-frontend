@@ -4,7 +4,6 @@ import axios from 'axios';
 import * as routes from '../constants/routes';
 
 class Signup extends Component {
-	
 	constructor() {
 		super();
 		this.state = {
