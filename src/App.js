@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import './normalize.css';
+import Landing from './components/Landing';
 import Header from './components/Header';
 import Cities from './components/Cities';
 import Logout from './components/Logout';
@@ -19,6 +20,10 @@ class App extends Component {
       <div className="">
         <Header />
         <Switch>
+          <Route
+            exact path={routes.LANDING}
+              component={Landing}
+          />
           <Route
             exact path={routes.SIGN_UP}
              component={Signup}

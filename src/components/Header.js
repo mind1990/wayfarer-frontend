@@ -9,7 +9,7 @@ class Header extends Component {
 				<nav>
 					<div className='box-1'>
 						<i className="fab fa-laravel" alt='logo' />
-						<h1>Wayfarer</h1>
+						<Link to={routes.LANDING}><h1>Wayfarer</h1></Link>
 					</div>
 					
 					<div className='box-2'>

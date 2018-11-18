@@ -47,13 +47,19 @@ i {
 }
 
 
+.carousel-inner {
+  height: 50vh;
+}
 
+#wayfarer-header {
+  text-align: center;
+}
 
-
-
-
-
-
+.topics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 
 
