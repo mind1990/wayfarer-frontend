@@ -34,10 +34,11 @@ class Signin extends Component {
 	}
 	render() {
 		return (
-			<div>
+			<div className="form-container">
 				<h1>Sign In</h1>
-				<form onSubmit={this.onFormSubmit} className="signin-form">
+				<form onSubmit={this.onFormSubmit} className="form">
 				<input
+					className="text"
 					type='email' name='email'
 					placeholder='Your email'
 					onChange={this.onInputChange}
@@ -45,14 +46,15 @@ class Signin extends Component {
 					required
 				/>
 				<input
+					className="text"
 					type='password' name='password'
 					placeholder='Your password'
 					onChange={this.onInputChange}
 					value={this.state.value}
 					required
 				/>
-				<Link to ={routes.SIGN_UP}>Need an account? Sign Up!</Link>
-				<button>Sign In</button>
+				<button className="button">Sign In</button>
+				<Link to ={routes.SIGN_UP} className="question">Need an account? Sign Up!</Link>
 				</form>
 			</div>
 		);

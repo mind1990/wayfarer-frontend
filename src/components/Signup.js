@@ -47,10 +47,11 @@ class Signup extends Component {
 
 	render() {
 		return (
-			<div>
-				<h1>Sign Up</h1>
-				<form onSubmit={this.onFormSubmit}>
+			<div className="form-container">
+				<h1 className="text">Sign Up</h1>
+				<form onSubmit={this.onFormSubmit} className="form">
         <input
+         	className="text"
         	type='text' name='username'
         	placeholder='User name'
           onChange={this.onInputChange}
@@ -58,6 +59,7 @@ class Signup extends Component {
           required
         />
         <input
+         	className="text"
         	type='password' name='password'
         	placeholder='Password'
           onChange={this.onInputChange}
@@ -66,6 +68,7 @@ class Signup extends Component {
           required
         />
         <input
+        	className="text"
         	type='password' name='confirmpassword'
         	placeholder='Confirm password'
           onChange={this.onInputChange}
@@ -74,14 +77,15 @@ class Signup extends Component {
           required
         />
         <input
+        	className="text"
         	type='email' name='email'
         	placeholder='Email address'
           onChange={this.onInputChange}
           value={this.state.value}
           required
         />
-        <Link to ={routes.SIGN_IN}>Already have an account? Sign In!</Link>
-        <button>Sign Up</button>
+        <button className="button">Sign Up</button>
+        <Link to ={routes.SIGN_IN} className="question">Already have an account? Sign In!</Link>
       </form>
 			</div>
 		);

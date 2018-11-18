@@ -39,18 +39,18 @@ class Landing extends Component {
 
 				
 					<h2 id="wayfarer-header">Wayfarer is...</h2>
-					<div className="topics">
-						<div>
+					<div className="topics-container">
+						<div className="topic-box">
 						<h2>Topic</h2>
-						<p>lorem</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit saepe odio incidunt consequatur ipsam omnis voluptatibus, deserunt nesciunt magnam nam maiores minus repellat tempore quod tenetur exercitationem dolorum ad veniam!</p>
 						</div>
-						<div>
+						<div className="topic-box">
 						<h2>Topic</h2>
-						<p>lorem</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit saepe odio incidunt consequatur ipsam omnis voluptatibus, deserunt nesciunt magnam nam maiores minus repellat tempore quod tenetur exercitationem dolorum ad veniam!</p>
 						</div>
-						<div>
+						<div className="topic-box">
 						<h2>Topic</h2>
-						<p>lorem</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit saepe odio incidunt consequatur ipsam omnis voluptatibus, deserunt nesciunt magnam nam maiores minus repellat tempore quod tenetur exercitationem dolorum ad veniam!</p>
 						</div>
 					</div>
 

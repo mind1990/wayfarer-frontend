@@ -41,7 +41,7 @@ i {
 }
 
 
-.signin-form {
+.form {
   display: flex;
   flex-direction: column;
 }
@@ -53,21 +53,46 @@ i {
 
 #wayfarer-header {
   text-align: center;
+  margin: 20px auto;
 }
 
-.topics {
+.topics-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
+.topic-box {
+  width: 25%;
+}
 
 
+/* -------- FORM ------- */
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  
+}
 
+.text {
+  text-align: center;
+    width: 500px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    padding: 10px;
+}
 
+.button {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
-
+.question {
+  text-align: center;
+}
 
 
 
