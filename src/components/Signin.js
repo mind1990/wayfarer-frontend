@@ -36,7 +36,7 @@ class Signin extends Component {
 		return (
 			<div>
 				<h1>Sign In</h1>
-				<form onSubmit={this.onFormSubmit}>
+				<form onSubmit={this.onFormSubmit} className="signin-form">
 				<input
 					type='email' name='email'
 					placeholder='Your email'
