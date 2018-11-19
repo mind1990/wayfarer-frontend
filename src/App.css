@@ -177,6 +177,40 @@ i {
 }
 
 
+/* ----------------- CITY VIEW --------------------- */
+
+.upper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: yellow;
+  height: 50vh;
+}
+
+.city-view-image {
+  height: 400px;
+}
+
+.add-button {
+  padding: 0;
+  margin-top: 200px;
+  border-radius: 50px;
+/*  font-size: 100px;*/  
+  height: 100px;
+  width: 100px;
+
+}
+
+.lower-container {
+  background-color: orange;
+
+}
+
+.post-container {
+  display: flex;
+  align-items: center;
+  background-color: green;
+}
 
 
 

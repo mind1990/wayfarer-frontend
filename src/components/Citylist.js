@@ -5,7 +5,7 @@ class Citylist extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Citylist</h1>
+				<h1>Cities</h1>
 				<City />
 			</div>
 		)
