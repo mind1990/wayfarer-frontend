@@ -136,11 +136,45 @@ i {
 
 
 
+/* ---------------- CITY PAGE -------------------- */
+
+.cities-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.citylist-container {
+  background-color: red;
+  width: 30%;
+  height: 100vh;
+}
+
+.cityview-container {
+  background-color: blue;
+  width: 70%;
+}
 
 
+/* ---------------- CITY BOX ---------------------- */
+
+.city-box {
+  background-color: green;
+  border: solid black 2px;
+  margin: 20px;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+}
 
 
-
+.city-image {
+  height: 100px;
+  border-radius: 20px;  
+}
+.city-name {
+  margin: 0 30px;
+}
 
 
 
