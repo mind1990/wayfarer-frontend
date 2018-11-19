@@ -96,13 +96,43 @@ i {
 
 
 
+/* ------------- PROFILE ------------ */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+/*  align-items: center; */
+  justify-content: center;
+  width: 30%;
+  margin: 40px auto 0;
+
+}
+
+.fullname {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+#edit-button {
+  position: relative;
+  /*left: 20px;*/
+  width: 20%;
+}
 
 
+.date-join {
+  margin-bottom: 100px;
+}
 
+.posts {
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-
-
-
+.post-link {
+  text-align: center;
+}
 
 
 
