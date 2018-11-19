@@ -1,3 +1,8 @@
+* {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
 
 /* -------------- NAVBAR ---------------*/
 nav {
@@ -144,22 +149,23 @@ i {
 }
 
 .citylist-container {
-  background-color: red;
+  /*background-color: red;*/
   width: 30%;
   height: 100vh;
 }
 
 .cityview-container {
-  background-color: blue;
+  /*background-color: blue;*/
   width: 70%;
+  border: solid lightgrey 1px;
 }
 
 
 /* ---------------- CITY BOX ---------------------- */
 
 .city-box {
-  background-color: green;
-  border: solid black 2px;
+  /*background-color: green;*/
+  /*border: solid black 2px;*/
   margin: 20px;
   border-radius: 20px;
 
@@ -170,7 +176,9 @@ i {
 
 .city-image {
   height: 100px;
-  border-radius: 20px;  
+  width: 180px;
+  border-radius: 20px;
+  
 }
 .city-name {
   margin: 0 30px;
@@ -183,12 +191,13 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: yellow;
+  /*background-color: yellow;*/
   height: 50vh;
 }
 
 .city-view-image {
   height: 400px;
+  margin: 30px 0;
 }
 
 .add-button {
@@ -202,18 +211,34 @@ i {
 }
 
 .lower-container {
-  background-color: orange;
+  /*background-color: orange;*/
+  border-top: solid skyblue 1px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: flex-start;
+}
 
+.posts-header {
+  text-align: center;
 }
 
 .post-container {
   display: flex;
   align-items: center;
-  background-color: green;
+  /*background-color: green;*/
+  /*height: 10vh;*/
+}
+
+.post-city-image {
+  height: 100px;
+  border-radius: 20px;
+  margin: 0 20px;
 }
 
 
-
+.img {
+  position: center;
+} 
 
 
 

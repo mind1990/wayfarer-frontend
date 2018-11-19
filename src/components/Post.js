@@ -5,7 +5,7 @@ class Post extends Component {
 		return (
 			<div className="post-container">
 				<div>
-					<img src={require("../images/cityphoto.jpeg")} alt="cityphoto" className="city-image" />
+					<img src={require("../images/london.jpg")} alt="cityphoto" className="post-city-image" />
 				</div>
 				<div>
 					<h1>Title</h1>

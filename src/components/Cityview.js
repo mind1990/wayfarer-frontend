@@ -7,19 +7,19 @@ class Cityview extends Component {
 			<div className="city-view-container">
 				<div className="upper-container">
 					<div className="city-details">
-						<h1>Cityname</h1>
-						<h3>Country</h3>
+						<h1>London</h1>
+						<h3>United Kingdom</h3>
 						<button className="add-button">+</button>
 					</div>
-					<div className="city-image">
-						<img src={require("../images/cityphoto.jpeg")} alt="cityphoto" className="city-view-image" />
+					<div className="big-city-image">
+						<img src={require("../images/london.jpg")} alt="london" className="city-view-image" />
 					</div>
 				</div>
-				<div className="lower-container">
-					<h1>Posts</h1>
-					<div className="all-posts">
+					<h1 className="posts-header">Posts</h1>
+					<div className="lower-container">
+						<div>
 						<Post />
-					</div>
+						</div>
 				</div>
 			</div>
 		)
