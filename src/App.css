@@ -3,10 +3,17 @@
   font-family: sans-serif;
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkorange;
+}
+
 
 /* -------------- NAVBAR ---------------*/
 nav {
-  background-color: lightgrey;
+  background-color: grey;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,7 +65,7 @@ i {
 
 #wayfarer-header {
   text-align: center;
-  margin: 20px auto;
+  margin: 80px auto;
 }
 
 .topics-container {
@@ -149,9 +156,9 @@ i {
 }
 
 .citylist-container {
-  /*background-color: red;*/
+  background-color: lightgrey;
   width: 30%;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .cityview-container {
@@ -162,6 +169,11 @@ i {
 
 
 /* ---------------- CITY BOX ---------------------- */
+
+.cities-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .city-box {
   /*background-color: green;*/
@@ -182,6 +194,13 @@ i {
 }
 .city-name {
   margin: 0 30px;
+}
+
+.scroller {
+  margin: 0 auto;
+  height: 800px;
+  width: 100%;
+  overflow: auto;
 }
 
 
@@ -215,7 +234,10 @@ i {
   border-top: solid skyblue 1px;
   margin: 0 20px;
   display: flex;
-  flex-direction: flex-start;
+  flex-direction: column;
+  /*flex-direction: flex-start;*/
+  overflow: auto;
+  
 }
 
 .posts-header {
@@ -224,9 +246,10 @@ i {
 
 .post-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   /*background-color: green;*/
-  /*height: 10vh;*/
+  height: 20vh;
+  overflow: auto;
 }
 
 .post-city-image {
@@ -240,11 +263,20 @@ i {
   position: center;
 } 
 
+.d-block .w-100 {
+  position: cover;
+}
 
+button {
+  background-color: darkorange;
+  color: white;
+}
 
-
-
-
+.single-post-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 
 

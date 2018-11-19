@@ -10,7 +10,7 @@ class City extends Component {
 				</div>
 				<div className="city-box">
 					<img src={require("../images/krflag.png")} alt="cityphoto" className="city-image" />
-					<h2 className="city-name">Rome</h2>
+					<h2 className="city-name">Seoul</h2>
 				</div>
 				<div className="city-box">
 					<img src={require("../images/italy-flag.jpg")} alt="cityphoto" className="city-image" />
@@ -22,11 +22,15 @@ class City extends Component {
 				</div>
 				<div className="city-box">
 					<img src={require("../images/usaflag.png")} alt="cityphoto" className="city-image" />
-					<h2 className="city-name">Paris</h2>
+					<h2 className="city-name">New York</h2>
 				</div>
 				<div className="city-box">
 					<img src={require("../images/thaiflag.png")} alt="cityphoto" className="city-image" />
 					<h2 className="city-name">Bangkok</h2>
+				</div>
+				<div className="city-box">
+					<img src={require("../images/franceflag.png")} alt="cityphoto" className="city-image" />
+					<h2 className="city-name">Paris</h2>
 				</div>
 			</div>
 		)

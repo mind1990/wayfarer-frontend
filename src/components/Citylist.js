@@ -4,8 +4,8 @@ import City from './City';
 class Citylist extends Component {
 	render() {
 		return (
-			<div>
-				<h1>Cities</h1>
+			<div className="scroller">
+				<h1 className="cities-header">Cities</h1>
 				<City />
 			</div>
 		)

@@ -28,6 +28,20 @@ class Landing extends Component {
 								alt="Third slide" 
 							/>
 			    	</div>
+			    	<div class="carousel-item">
+				      <img 
+				      	class="d-block w-100" 
+				      	src={require("../images/vatican.jpg")}
+								alt="Third slide" 
+							/>
+			    	</div>
+			    	<div class="carousel-item">
+				      <img 
+				      	class="d-block w-100" 
+				      	src={require("../images/china.jpg")}
+								alt="Third slide" 
+							/>
+			    	</div>
 					 </div>
 			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
