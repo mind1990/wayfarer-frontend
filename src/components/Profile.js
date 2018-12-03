@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import axios from 'axios';
+import axios from 'axios';
 // import * as routes from '../constants/routes';
 
 class Profile extends Component {
+	// componentDidMount() {
+ //    axios.get('http://localhost:4000/api/user')
+ //      if (res) {
+ //      	console.log(res)
+ //    }
+ //  }
+
+
 	render() {
 		return (
 			<div>

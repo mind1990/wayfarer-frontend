@@ -198,7 +198,7 @@ i {
 
 .scroller {
   margin: 0 auto;
-  height: 800px;
+  height: 92vh;
   width: 100%;
   overflow: auto;
 }
@@ -211,11 +211,11 @@ i {
   flex-direction: row;
   justify-content: space-around;
   /*background-color: yellow;*/
-  height: 50vh;
+  height: 50%;
 }
 
 .city-view-image {
-  height: 400px;
+  height: 300px;
   margin: 30px 0;
 }
 
@@ -237,7 +237,8 @@ i {
   flex-direction: column;
   /*flex-direction: flex-start;*/
   overflow: auto;
-  
+  height: 39vh;
+
 }
 
 .posts-header {
