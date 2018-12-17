@@ -1,44 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Wayfarer</h1>
+Wayfarer is an app built using the MERN stack (Mongoose, Express, React, Node.js). Users can provide travel/tourist tips for cities included within the app. The app is a specific demonstration of CRUD methods and state management across a multi-page application.
 
-## Available Scripts
+![wayfarer](https://media.git.generalassemb.ly/user/16317/files/7c382d00-01dc-11e9-8109-5d437c2c2d50)
 
-In the project directory, you can run:
 
-### `npm start`
+<h2>Technologies used</h2>
+<ul>
+  <li>React</li>
+  <li>Redux</li>
+  <li>Node.js</li>
+  <li>MongoDB</li>
+  <li>Express</li>
+  <li>Bootstrap</li>
+  <li>Axios</li>
+  <li>mlab</li>
+  <li>Gravatar</li>
+  <li>JWT Web Token</li>
+</ul>
+<h2>Process/Approach</h2>
+I wanted to build a website similar to Twitter with Facebook's color theme, so I decided to build Twitbook with the MERN Stack
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>Unsolved Problems</h2>
+Twitbook still has some bugs such as updating user's profile, following another user and getting the liked posts to show up on a user's profile.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<h2>Biggest Wins/Challenges</h2>
+<h3>Wins</h3>
+I was able to build the MVP using the MERN Stack as I wanted to and implement some other teachnologies in the app.
+<h3>Challenges</h3>
+Since I'm more comfortable with Frant End, building a Full Stack app isn't easy for me. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>Planned Implementation</h2>
+I'm planning to implement the following feature where one user can follow another user and change the theme of the app using Sass.
