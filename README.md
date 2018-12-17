@@ -18,10 +18,10 @@ Wayfarer is an app built using the MERN stack (Mongoose, Express, React, Node.js
   <li>JWT Web Token</li>
 </ul>
 <h2>Process/Approach</h2>
-I wanted to build a website similar to Twitter with Facebook's color theme, so I decided to build Twitbook with the MERN Stack
+My team wanted to build a website similar to Instagram, so we decided to build our website with the MERN Stack
 
 <h2>Unsolved Problems</h2>
-Twitbook still has some bugs such as updating user's profile, following another user and getting the liked posts to show up on a user's profile.
+The websit still has some bugs such as updating user's profile, following another user and getting the liked posts to show up on a user's profile.
 
 <h2>Biggest Wins/Challenges</h2>
 <h3>Wins</h3>
