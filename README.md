@@ -11,10 +11,7 @@ Wayfarer is an app built using the MERN stack (Mongoose, Express, React, Node.js
   <li>Node.js</li>
   <li>MongoDB</li>
   <li>Express</li>
-  <li>Bootstrap</li>
   <li>Axios</li>
-  <li>mlab</li>
-  <li>Gravatar</li>
   <li>JWT Web Token</li>
 </ul>
 <h2>Process/Approach</h2>
